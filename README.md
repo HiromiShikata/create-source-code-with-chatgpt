@@ -4,6 +4,8 @@
 ```
 Please write source code as 
 
+If you have any questions, please ask me.
+
 ## Does and donts
 - use typescript
 - use async/await style
