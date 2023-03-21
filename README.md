@@ -2,19 +2,20 @@
 
 ## TypeScript
 ```
-Please write source code
+Please write source code as 
 
 ## Does and donts
 - use typescript
 - use async/await style
 - use allow style
 - don't use `as` and `any`
-- don't write comment in source code
+- don't any comments in source code
 - use template literal when we use it.each for parameterized test
 
 
 
-## Interfaces
+
+## Current file contents
  
 ```
 
