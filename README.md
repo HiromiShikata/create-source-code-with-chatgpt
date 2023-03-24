@@ -26,6 +26,36 @@ If you have any questions, please ask me.
 ```
 Please define function to return instance of useCase and mock repositories used by usecase.
 
+## Specification
+- mock repository
+    - define function for each repository .
+    - define variable wity type repository.
+    - return object after wrap each method with `jest.fn`
+    - don't return repository type because we can't use mock function.
+- useCase
+    - instanciate with mock repositories
+
+## Template
+  const createUseCaseAndMockRepositories = () => {
+    const {repositoryName} = createMock{repositoryName}();
+    const useCase = new {useCaseName}UseCase({repositoryName});
+    return {
+      {repositoryName},
+      useCase,
+    };
+  };
+  const createMock{repositoryName} = () => {
+    const repository: {repositoryName} = {
+      find: async (_path: string): Promise<EntityDefinition[]> => {
+        return [];
+      },
+    };
+    return {
+      find: jest.fn((path: string) => repository.find(path)),
+    };
+  };
+
+
 ## Example
   const createUseCaseAndMockRepositories = () => {
     const entityDefinitionRepository = createMockEntityDefinitionRepository();
