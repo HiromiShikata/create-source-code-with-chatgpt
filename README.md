@@ -11,8 +11,8 @@ If you have any questions, please ask me.
 - use async/await style
 - use allow style
 - don't use `as` and `any`
-- don't any comments in source code
-- use template literal when we use it.each for parameterized test
+- don't put any comments in source code
+- use string literal when we use it.each for parameterized test
 
 
 
@@ -85,3 +85,20 @@ Please define function to return instance of useCase and mock repositories used 
 
 
 ```
+
+
+### unit test of function
+
+Please write unit test for 
+
+If you have any questions, please ask me.
+
+## Does and donts
+- use typescript
+- use async/await style
+- don't put any comments in source code
+- use string literal when we use it.each for parameterized test
+
+
+## Current file contents
+ 
