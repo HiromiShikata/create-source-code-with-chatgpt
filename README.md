@@ -77,14 +77,43 @@ Please define function to return instance of useCase and mock repositories used 
   };
 
 ## Interface of target usecase class
-\`\`\`
-\`\`\`
+
 
 ## Current file contents
 
 
 
 ```
+
+### create unit test for usecase
+```
+Please write unit test for useCase class.
+
+## Specification
+- Path of test file is `./{UseCaseFileName}.test.ts` in the same directory
+
+## Template
+//./src/path/to/file
+describe('GetSampleUseeCase', () => {
+  describe('execute', () => {
+    it('should success', async () => {
+
+      const {useCase, dateTimeRepository} = createUseCaseAndMockRepositories()
+      const res = useCase.execute()
+
+  })
+  const createUseCaseAndMockRepositories = () => {
+    const dateTimeRepository = createMockDateTimeRepository();
+    ... 
+  }
+})
+
+
+## UseCase class
+
+```
+
+
 
 
 ### unit test of function
