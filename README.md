@@ -90,7 +90,9 @@ Please define function to return instance of useCase and mock repositories used 
 Please write unit test for useCase class.
 
 ## Specification
-- Path of test file is `./{UseCaseFileName}.test.ts` in the same directory
+- Path of test file is `./{UseCaseFileName}.test.ts` in the same directory.
+- Implement all assertions.
+- Don't put any comments.
 
 ## Template
 //./src/path/to/file
