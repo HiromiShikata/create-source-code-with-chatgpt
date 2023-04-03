@@ -91,7 +91,7 @@ Please write unit test for useCase class.
 
 ## Specification
 - Path of test file is `./{UseCaseFileName}.test.ts` in the same directory.
-- Implement all assertions.
+- Please assert each values. (Only toHaveBeenCalled is not enough)
 - Don't put any comments.
 
 ## Template
