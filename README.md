@@ -92,7 +92,9 @@ Please write unit test for useCase class.
 ## Specification
 - Path of test file is `./{UseCaseFileName}.test.ts` in the same directory.
 - Please assert each values. (Only toHaveBeenCalled is not enough)
+- Please write all assertions in this case.
 - Don't put any comments.
+- Use always '2000-01-01T00:00:00Z' as current date time.
 
 ## Template
 //./src/path/to/file
