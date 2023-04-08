@@ -184,6 +184,7 @@ or
 Could you please write a fantastic README for this npm module includes below?
 
 - Project Name
+- Badges
 - Project Description
 - Installation
 - Usage
@@ -194,7 +195,6 @@ Could you please write a fantastic README for this npm module includes below?
 - FAQs
 - Troubleshooting
 - Roadmap
-- Badges
 
 ## License
 MIT
@@ -210,4 +210,9 @@ MIT
 
 ```
 
+1. Output shell
+```
+Thank you!
+Please output shell script to write this README.md.
 
+```
