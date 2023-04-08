@@ -150,7 +150,7 @@ Please listup all test cases for this class.
 ### Implement
 ```
 Perfect!!
-Please implement all testcases.
+Please implement all testcases inside this template.
 
 ## DOs and DONTs
 - check every values of response.
