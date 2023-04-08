@@ -143,15 +143,20 @@ If you have any questions, please ask me.
 ### Test cases
 ```
 Please listup all test cases for this class.
-- check every values of response.
-- get content and check values after create/update/delete. 
 
 ## Target class
 ```
 
 ### Implement
 ```
-Please implement all testcases here:
+Perfect!!
+Please implement all testcases.
+
+## DOs and DONTs
+- check every values of response.
+- get content and check values after create/update/delete. 
+- don't use mock. server is working, so please use real server.
+
 
 ## Template
 ```
