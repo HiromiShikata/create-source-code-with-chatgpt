@@ -137,3 +137,21 @@ If you have any questions, please ask me.
  
 
 ```
+
+
+## Create Tests for repository
+### Test cases
+```
+Please listup all test cases for this class.
+- check every values of response.
+- get content and check values after create/update/delete. 
+
+## Target class
+```
+
+### Implement
+```
+Please implement all testcases here:
+
+## Template
+```
