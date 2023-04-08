@@ -155,3 +155,59 @@ Please implement all testcases here:
 
 ## Template
 ```
+
+## README
+### npm module
+1. Define template
+```
+What does a great README template look like for a repository on github?
+```
+
+1. Write
+```
+Perfect!!!
+Could you please write a fantastic README for this npm module?
+
+## License
+MIT
+
+## Usage of this npm module
+
+
+## current README
+
+## package.json
+
+```
+or 
+```
+Could you please write a fantastic README for this npm module includes below?
+
+- Project Name
+- Project Description
+- Installation
+- Usage
+- Contributing
+- License
+- Authors
+- Acknowledgements
+- FAQs
+- Troubleshooting
+- Roadmap
+- Badges
+
+## License
+MIT
+
+## Usage of this npm module
+
+
+## current README
+
+## package.json
+
+
+
+```
+
+
