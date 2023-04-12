@@ -32,6 +32,8 @@ Please define function to return instance of useCase and mock repositories used 
     - define variable wity type repository.
     - return object after wrap each method with `jest.fn`
     - don't return repository type because we can't use mock function.
+    - implement all returning value for each mock. 
+        - don't use jest `jest.fn()`
 - useCase
     - instanciate with mock repositories
 
