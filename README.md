@@ -49,6 +49,7 @@ Please define function to return instance of useCase and mock repositories used 
     - Please explicitly specify the data types.
     - Don't use any
     - Don't make empty values and functions, implement all please.
+    - Don't define interfaces about repositories and usecases to use defined interfaces.
     
 
 - useCase
