@@ -43,9 +43,13 @@ Please define function to return instance of useCase and mock repositories used 
     - return object after wrap each method with `jest.fn`
     - don't return repository type because we can't use mock function.
     - implement all returning value for each mock. 
-        - don't use jest `jest.fn()`
+        - don't use just simple `jest.fn()`
+        - don't use just simple `jest.fn().mockResolvedValue()`
+        - please define all value
     - Please explicitly specify the data types.
     - Don't use any
+    - Don't make empty values and functions, implement all please.
+    
 
 - useCase
     - instanciate with mock repositories
