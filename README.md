@@ -241,3 +241,28 @@ Thank you!
 Please output shell script to write this README.md.
 
 ```
+
+
+
+## Check tests and testcases
+```
+Please check if the following test code is verifying the target function correctly and if the description and test content match. If there is any inconsistency, please list the test cases that do not match the Format.
+
+## Format
+```
+# Target function: {which function should be tested in this test cases}
+- {first test case name}
+    - actual: {actuall function called by this test case}
+    - need to fix: {how fix this test case}
+- {second test case name}
+    - ...
+```
+
+## Target function 
+
+## Test code
+
+```
+
+
+
