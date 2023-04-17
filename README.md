@@ -56,45 +56,29 @@ Please define function to return instance of useCase and mock repositories used 
     - instanciate with mock repositories
 
 ## Template
-  const createUseCaseAndMockRepositories = () => {
-    const {repositoryName} = createMock{repositoryName}();
-    const useCase = new {useCaseName}UseCase({repositoryName});
-    return {
-      {repositoryName},
-      useCase,
-    };
-  };
-  const createMock{repositoryName} = () => {
-    const repository: {repositoryName} = {
-      find: async (_path: string): Promise<EntityDefinition[]> => {
-        return [];
-      },
-    };
-    return {
-      find: jest.fn((path: string) => repository.find(path)),
-    };
-  };
+    const createUseCaseAndMockRepositories = () => {
+        const mockEntityRepository : MockedObject<EntityRepositoryForUseCase> = {
+            getById: jest.fn((id: string) => {
+                id: "test-id",
+                name: "test-name",
+            }),
+        };
+        const mockDateTimeRepository: MockedObject<DateTimeRepository> = {
+            now: jest.fn(() => successErrorable(new Date('2000-01-01T00:00:00.000Z'))),
+        };
 
+        const useCase = new UseCase(
+            mockEntityRepository,
+            mockTimeRepository,
+        );
 
-## Example
-  const createUseCaseAndMockRepositories = () => {
-    const entityDefinitionRepository = createMockEntityDefinitionRepository();
-    const useCase = new GetDefinitionByPathUseCase(entityDefinitionRepository);
-    return {
-      entityDefinitionRepository,
-      useCase,
+        return {
+            entityRepository: mockEntityRepository,
+            timeRepository: mockTimeRepository,
+            useCase,
+        };
     };
-  };
-  const createMockEntityDefinitionRepository = () => {
-    const repository: EntityDefinitionRepository = {
-      find: async (_path: string): Promise<EntityDefinition[]> => {
-        return [];
-      },
-    };
-    return {
-      find: jest.fn((path: string) => repository.find(path)),
-    };
-  };
+
 
 ## Interface of target usecase class
 
